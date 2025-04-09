@@ -43,6 +43,8 @@
                                 <i class="bi bi-trash"></i> Delete
                             </button>
                         </form>
+                         <!-- Button to navigate to the pictures page -->
+    <a href="{{ route('pictures.index') }}" class="btn btn-primary">Go to My Pictures</a>
                     </td>
                 </tr>
                 @endforeach

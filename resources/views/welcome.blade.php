@@ -25,8 +25,14 @@
                 <div class="flex flex-col items-center justify-center w-full max-w-2xl px-4 py-10 mx-auto bg-white rounded-lg shadow-lg ring-1 ring-gray-300 dark:bg-zinc-900 dark:ring-zinc-800">
                     <h1 class="text-xl font-semibold text-center text-gray-700 dark:text-white">Welcome to Elias Espino app</h1>
                     <p class="mt-4 text-sm text-gray-500 dark:text-gray-400">Backend Engineer JR – Challenge</p>
+                    <div class="btn-group" role="group" aria-label="Login and Register">
+    <a href="{{ route('login') }}" class="btn btn-primary">Login</a>
+    <a href="{{ route('register') }}" class="btn btn-secondary">Register</a>
+</div>
                 </div>
             </div>
+
+
        </div>
     </body>
 </html>
